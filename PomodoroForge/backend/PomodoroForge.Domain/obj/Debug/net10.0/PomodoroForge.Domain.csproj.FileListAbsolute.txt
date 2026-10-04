@@ -1,0 +1,12 @@
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\bin\Debug\net10.0\PomodoroForge.Domain.deps.json
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\bin\Debug\net10.0\PomodoroForge.Domain.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\bin\Debug\net10.0\PomodoroForge.Domain.pdb
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.AssemblyInfoInputs.cache
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.AssemblyInfo.cs
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.sourcelink.json
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\refint\PomodoroForge.Domain.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\PomodoroForge.Domain.pdb
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Domain\obj\Debug\net10.0\ref\PomodoroForge.Domain.dll

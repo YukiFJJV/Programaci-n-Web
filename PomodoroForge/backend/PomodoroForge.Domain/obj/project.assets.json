@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
       "projectName": "PomodoroForge.Domain",
-      "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
+      "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
       "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-      "outputPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

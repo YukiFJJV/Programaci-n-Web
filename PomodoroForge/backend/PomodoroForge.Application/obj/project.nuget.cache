@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WVZUI5gzXL8=",
+  "dgSpecHash": "z4H9RKOcdsc=",
   "success": true,
-  "projectFilePath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

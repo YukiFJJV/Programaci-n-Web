@@ -6,5 +6,5 @@ namespace PomodoroForge.Infrastructure.Data;
 public class PomodoroForgeDbContext : DbContext
 {
     public PomodoroForgeDbContext(DbContextOptions<PomodoroForgeDbContext> options) : base(options) { }
-    public DbSet<GlobalPomodoro> HabitosGlobales { get; set; }
+    public DbSet<GlobalPomodoro> GlobalPomodoros { get; set; }
 }

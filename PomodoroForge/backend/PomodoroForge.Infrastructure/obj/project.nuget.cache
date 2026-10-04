@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WicQeklpIG4=",
+  "dgSpecHash": "CrVft5x2mzk=",
   "success": true,
-  "projectFilePath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\ferna\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\ferna\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",

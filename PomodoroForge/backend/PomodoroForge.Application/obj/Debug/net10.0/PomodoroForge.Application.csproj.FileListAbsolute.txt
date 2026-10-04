@@ -1,0 +1,16 @@
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\bin\Debug\net10.0\PomodoroForge.Application.deps.json
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\bin\Debug\net10.0\PomodoroForge.Application.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\bin\Debug\net10.0\PomodoroForge.Application.pdb
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\bin\Debug\net10.0\PomodoroForge.Domain.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\bin\Debug\net10.0\PomodoroForge.Domain.pdb
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.csproj.AssemblyReference.cache
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.AssemblyInfoInputs.cache
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.AssemblyInfo.cs
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.sourcelink.json
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\Pomodoro.55A3E006.Up2Date
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\refint\PomodoroForge.Application.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\PomodoroForge.Application.pdb
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.Application\obj\Debug\net10.0\ref\PomodoroForge.Application.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj": {}
+    "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj": {}
   },
   "projects": {
-    "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj": {
+    "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj",
         "projectName": "PomodoroForge.API",
-        "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj",
+        "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.API\\PomodoroForge.API.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.API\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
-                "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj"
+              "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
+                "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj"
               },
-              "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj": {
-                "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj"
+              "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj"
               }
             }
           }
@@ -63,6 +63,20 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.17.13, )"
             }
           },
           "imports": [
@@ -502,14 +516,14 @@
         }
       }
     },
-    "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
+    "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
         "projectName": "PomodoroForge.Application",
-        "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
+        "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -532,8 +546,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj": {
-                "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj"
+              "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj": {
+                "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj"
               }
             }
           }
@@ -554,6 +568,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -848,14 +868,14 @@
         }
       }
     },
-    "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj": {
+    "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
         "projectName": "PomodoroForge.Domain",
-        "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
+        "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\PomodoroForge.Domain.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1190,14 +1210,14 @@
         }
       }
     },
-    "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj": {
+    "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
         "projectName": "PomodoroForge.Infrastructure",
-        "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\PomodoroForge.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1220,8 +1240,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
-                "projectPath": "D:\\UNIVERSIDAD\\UNAH\\Septimo Periodo\\Programación web\\I Parcial\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj"
+              "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj": {
+                "projectPath": "C:\\Users\\ferna\\Desktop\\Programación Web\\Programaci-n-Web\\PomodoroForge\\backend\\PomodoroForge.Application\\PomodoroForge.Application.csproj"
               }
             }
           }
