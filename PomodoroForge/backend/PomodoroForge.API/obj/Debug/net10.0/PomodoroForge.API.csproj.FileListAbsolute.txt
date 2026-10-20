@@ -130,3 +130,9 @@ C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\
 C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\obj\Debug\net10.0\PomodoroForge.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\FluentValidation.dll
 C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\MediatR.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\MediatR.Contracts.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ferna\Desktop\Programación Web\Programaci-n-Web\PomodoroForge\backend\PomodoroForge.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll

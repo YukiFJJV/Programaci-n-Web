@@ -13,7 +13,6 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(connectionString);
 builder.Services.AddControllers();
 
-// 2. Generación nativa de OpenAPI (viene por defecto en .NET 10)
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
