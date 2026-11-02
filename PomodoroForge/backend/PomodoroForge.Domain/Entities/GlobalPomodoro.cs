@@ -5,8 +5,11 @@ public class GlobalPomodoro
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = string.Empty;
-    public int Duration { get; set; }
-    public int BreakTime { get; set; }
-
-    public PomodoroStatus Status { get; set; } = PomodoroStatus.Pending;
+    public double Duration { get; set; }
+    public double BreakTime { get; set; }
+    public DateTime? LastUsedAt { get; set; }
+    public int TotalSessionsCompleted { get; set; } = 0;
+    public int TotalSessionsAttempted { get; set; } = 0;
+    public double TotalFocusTime { get; set; } = 0;
+    public ICollection<PomodoroSession> Sessions { get; set; } = new List<PomodoroSession>();
 }

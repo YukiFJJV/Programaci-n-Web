@@ -5,7 +5,9 @@ public class PomodoroResponseDto
 {
     public Guid Id { get; set; }
     public string? Name { get; set; } = string.Empty;
-    public int Duration { get; set; } = 25; // Default duration in minutes
-    public int BreakTime { get; set; } = 10;
-    public required PomodoroStatus Status { get; set; }
+    public double Duration { get; set; } = 25; // Default duration in minutes
+    public double BreakTime { get; set; } = 10;
+    public DateTime? LastUsedAt { get; set; }
+    public PomodoroStatus Status { get; set; } = PomodoroStatus.Pending;
+    public PomodoroStatisticsDto Statistics { get; set; } = new();
 }

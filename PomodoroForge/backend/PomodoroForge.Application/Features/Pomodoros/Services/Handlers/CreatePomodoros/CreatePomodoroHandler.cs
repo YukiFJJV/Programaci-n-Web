@@ -26,8 +26,7 @@ public class CreatePomodoroHandler : IRequestHandler<CreatePomodoroCommand, Pomo
         {
             Name = request.Name,
             Duration = request.Duration,
-            BreakTime = request.BreakTime,
-            Status = Domain.Enums.PomodoroStatus.Pending
+            BreakTime = request.BreakTime
         };
 
         var createdPomodoro = await _pomodoroRepository.AddPomodoroAsync(pomodoro, cancellationToken);
@@ -37,8 +36,7 @@ public class CreatePomodoroHandler : IRequestHandler<CreatePomodoroCommand, Pomo
             Id = createdPomodoro.Id,
             Name = createdPomodoro.Name,
             Duration = createdPomodoro.Duration,
-            BreakTime = createdPomodoro.BreakTime,
-            Status = createdPomodoro.Status
+            BreakTime = createdPomodoro.BreakTime
         };
     }
 }

@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using MediatR;
 using PomodoroForge.Application.Features.Pomodoros.Commands;
 using PomodoroForge.Application.Features.Pomodoros.DTOs;
 using PomodoroForge.Application.Interfaces;
-
+using PomodoroForge.Domain.Enums;
 namespace PomodoroForge.Application.Features.Pomodoros.Handlers.ModifyPomodoros
 {
     public class ModifyPomodoroHandler : IRequestHandler<ModifyPomodoroCommand, PomodoroResponseDto?>
@@ -31,6 +26,18 @@ namespace PomodoroForge.Application.Features.Pomodoros.Handlers.ModifyPomodoros
                 return null;
             }
 
+            var lastSession = pomodoro.Sessions?
+                .OrderByDescending(s=> s.FinishDate)
+                .FirstOrDefault();
+
+            var cardStatus = lastSession?.Status ?? PomodoroStatus.Pending;
+
+            int totalAttempts = pomodoro.Sessions?.Count ?? 0;
+            double completionRate = totalAttempts > 0?
+                (double)pomodoro.TotalSessionsCompleted/totalAttempts
+                : 0
+            ;
+
             pomodoro.Name = request.Name ?? pomodoro.Name;
             pomodoro.Duration = request.Duration;
             pomodoro.BreakTime = request.BreakTime;
@@ -47,7 +54,15 @@ namespace PomodoroForge.Application.Features.Pomodoros.Handlers.ModifyPomodoros
                 Name = updatedPomodoro.Name,
                 Duration = updatedPomodoro.Duration,
                 BreakTime = updatedPomodoro.BreakTime,
-                Status = updatedPomodoro.Status
+                Status = cardStatus,
+                LastUsedAt = updatedPomodoro.LastUsedAt,
+
+                Statistics = new()
+                {
+                    TotalFocusTime = updatedPomodoro.TotalFocusTime,
+                    TotalSessionsCompleted = updatedPomodoro.TotalSessionsCompleted,
+                    CompletionRate = completionRate
+                }
             };
         }
     }

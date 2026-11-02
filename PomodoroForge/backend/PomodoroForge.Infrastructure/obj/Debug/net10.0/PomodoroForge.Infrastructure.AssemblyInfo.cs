@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PomodoroForge.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22d146f64b53fa322ca09b2ec3fd5b2054d0f732")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b78e153ce010abc22584f3760043134f55636af")]
 [assembly: System.Reflection.AssemblyProductAttribute("PomodoroForge.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PomodoroForge.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

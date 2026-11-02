@@ -28,22 +28,72 @@ namespace PomodoroForge.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<int>("BreakTime")
-                        .HasColumnType("integer");
+                    b.Property<double>("BreakTime")
+                        .HasColumnType("double precision");
 
-                    b.Property<int>("Duration")
-                        .HasColumnType("integer");
+                    b.Property<double>("Duration")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime?>("LastUsedAt")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<double>("TotalFocusTime")
+                        .HasColumnType("double precision");
+
+                    b.Property<int>("TotalSessionsAttempted")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TotalSessionsCompleted")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GlobalPomodoros");
+                });
+
+            modelBuilder.Entity("PomodoroForge.Domain.Entities.PomodoroSession", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("FinishDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("GlobalPomodoroId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("Status")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
 
-                    b.ToTable("GlobalPomodoros");
+                    b.HasIndex("GlobalPomodoroId");
+
+                    b.ToTable("PomodoroSessions");
+                });
+
+            modelBuilder.Entity("PomodoroForge.Domain.Entities.PomodoroSession", b =>
+                {
+                    b.HasOne("PomodoroForge.Domain.Entities.GlobalPomodoro", "GlobalPomodoro")
+                        .WithMany("Sessions")
+                        .HasForeignKey("GlobalPomodoroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GlobalPomodoro");
+                });
+
+            modelBuilder.Entity("PomodoroForge.Domain.Entities.GlobalPomodoro", b =>
+                {
+                    b.Navigation("Sessions");
                 });
 #pragma warning restore 612, 618
         }

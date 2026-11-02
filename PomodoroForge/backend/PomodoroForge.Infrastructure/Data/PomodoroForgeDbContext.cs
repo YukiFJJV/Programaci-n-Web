@@ -7,4 +7,5 @@ public class PomodoroForgeDbContext : DbContext
 {
     public PomodoroForgeDbContext(DbContextOptions<PomodoroForgeDbContext> options) : base(options) { }
     public DbSet<GlobalPomodoro> GlobalPomodoros { get; set; }
+    public DbSet<PomodoroSession> PomodoroSessions { get; set; }
 }

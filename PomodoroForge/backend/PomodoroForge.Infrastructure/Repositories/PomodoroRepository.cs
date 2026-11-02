@@ -17,7 +17,9 @@ public class GlobalPomodoroRepository : IPomodoroRepository
 
     public async Task<IEnumerable<GlobalPomodoro>> GetAllPomodorosAsync(CancellationToken cancellationToken)
     {
-        return await _context.GlobalPomodoros.ToListAsync(cancellationToken);
+        return await _context.GlobalPomodoros
+            .Include(pomodoro => pomodoro.Sessions)
+            .ToListAsync(cancellationToken);
     }
 
     public async Task<GlobalPomodoro> AddPomodoroAsync(GlobalPomodoro pomodoro, CancellationToken cancellationToken)
@@ -29,7 +31,9 @@ public class GlobalPomodoroRepository : IPomodoroRepository
 
     public async Task<GlobalPomodoro?> GetPomodoroByIdAsync(Guid id, CancellationToken cancellationToken)
     {
-        return await _context.GlobalPomodoros.FindAsync(id, cancellationToken);
+        return await _context.GlobalPomodoros
+            .Include(pomodoro => pomodoro.Sessions)
+            .FirstOrDefaultAsync(pomodoro => pomodoro.Id == id, cancellationToken);
     }
 
     public async Task<GlobalPomodoro?> ModifyPomodoroAsync(GlobalPomodoro? pomodoro, CancellationToken cancellationToken)

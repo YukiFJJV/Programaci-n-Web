@@ -1,6 +1,5 @@
 using FluentValidation;
 using PomodoroForge.Application.Features.Pomodoros.Commands;
-using PomodoroForge.Application.Features.Pomodoros.DTOs;
 
 namespace PomodoroForge.Application.Features.Pomodoros.Validators
 {

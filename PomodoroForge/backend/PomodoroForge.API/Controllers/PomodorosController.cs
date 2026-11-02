@@ -1,4 +1,3 @@
-using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using PomodoroForge.Application.Features.Pomodoros.DTOs;
 using MediatR;
@@ -32,16 +31,8 @@ public class PomodorosController(IMediator _mediator) : ControllerBase
     [HttpPost]
     public async Task<IActionResult> AddPomodoro([FromBody] CreatePomodoroCommand command, CancellationToken cancellationToken)
     {
-        try
-        {
-            var createdPomodoro = await _mediator.Send(command, cancellationToken);
-            return CreatedAtAction(nameof(GetPomodoroById), new { id = createdPomodoro.Id }, createdPomodoro);
-        }
-        catch(ValidationException ex)
-        {
-            var errors = ex.Errors.Select(e => new { e.ErrorMessage });
-            return BadRequest(new { message = "Errores: ", errors});
-        }
+        var createdPomodoro = await _mediator.Send(command, cancellationToken);
+        return CreatedAtAction(nameof(GetPomodoroById), new { id = createdPomodoro.Id }, createdPomodoro);
     }
 
     [HttpPut("{id:guid}")]
@@ -50,19 +41,12 @@ public class PomodorosController(IMediator _mediator) : ControllerBase
         [FromBody] ModifyPomodoroCommand command,
         CancellationToken cancellationToken)
     {
-        try
-        {
-            var secureCommand = command with { Id = id };
-            var modifiedPomodoro = await _mediator.Send(secureCommand, cancellationToken);
+        var secureCommand = command with { Id = id };
+        var modifiedPomodoro = await _mediator.Send(secureCommand, cancellationToken);
 
-            return modifiedPomodoro == null
-                ? NotFound(new { message  = "El pomodoro no se encontró" })
-                : Ok(modifiedPomodoro);
-        } catch (ValidationException ex)
-        {
-            var errors = ex.Errors.Select(e => new { e.ErrorMessage });
-            return BadRequest(new { message = "Errores", errors });
-        }
+        return modifiedPomodoro == null
+            ? NotFound(new { message = "El pomodoro no se encontró" })
+            : Ok(modifiedPomodoro);
     }
 
     [HttpDelete("{id:guid}")]
@@ -79,18 +63,10 @@ public class PomodorosController(IMediator _mediator) : ControllerBase
     [HttpPatch("{id:guid}/status")]
     public async Task<ActionResult<PomodoroResponseDto?>> UpdatePomodoroStatus(Guid id, [FromBody] PomodoroStatus status, CancellationToken cancellationToken)
     {
-        try
-        {
-            var response = await _mediator.Send(new UpdatePomodoroStatusCommand(id, status), cancellationToken);
+        var response = await _mediator.Send(new UpdatePomodoroStatusCommand(id, status), cancellationToken);
 
-            if(response == null)
-                return NotFound(new { message = "El pomodoro no se encontró" });
-
-            return Ok(response);
-        }
-        catch (ValidationException ex)
-        {
-            return BadRequest(new { Error = "Error", err = ex.Errors.Select(e => new { e.ErrorMessage }) });
-        }
+        return response == null
+            ? NotFound(new { message = "El pomodoro no se encontró" })
+            : Ok(response);
     }
 }
