@@ -14,10 +14,10 @@ export default function Sidebar() {
                         <span>🌐</span> Catálogo Global
                     </a>
                     <a href="#" className="flex items-center gap-3 px-3 py-2.5 text-slate-500 rounded-lg font-medium text-sm cursor-not-allowed">
-                        <span>📈</span> Mis Hábitos (Unidad 3)
+                        <span>📈</span> Estadisticas
                     </a>
                     <a href="#" className="flex items-center gap-3 px-3 py-2.5 text-slate-500 rounded-lg font-medium text-sm cursor-not-allowed">
-                        <span>📊</span> Progreso (Unidad 3)
+                        <span>📊</span> Crear Pomodoro
                     </a>
                 </nav>
             </div>
